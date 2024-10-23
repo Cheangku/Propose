@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propose</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            text-align: center;
+            margin-top: 100px;
+        }
+        h1 {
+            font-size: 50px;
+            color: #333;
+        }
+        img {
+            width: 300px;
+            height: auto;
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+        button {
+            font-size: 20px;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #ff4081;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #e91e63;
+        }
+    </style>
+</head>
+<body>
+    <h1>Will You Marry Me Lesitha?</h1>
+    <!-- Replace the src URL with the path to her photo -->
+    <img src="Image01.png" alt="Her Beautiful Photo">
+    <br>
+    <button onclick="document.getElementById('answer').innerHTML = 'Yes! 💖'">Yes</button>
+    <button onclick="document.getElementById('answer').innerHTML = 'No 😢'">No</button>
+    <p id="answer" style="font-size: 30px; margin-top: 20px;"></p>
+</body>
+</html>
